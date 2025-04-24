@@ -33,6 +33,8 @@ df = pd.get_dummies(df, columns=['Embarked'], drop_first=True)
 # Step 6: Normalize numerical features
 scaler = MinMaxScaler()
 num_cols = ['Age', 'Fare']
+sns.boxplot(x='Age', data=df)
+plt.title("Boxplot of Age" )
 df[num_cols] = scaler.fit_transform(df[num_cols])
 
 # Step 7: Save the cleaned data to a new file
