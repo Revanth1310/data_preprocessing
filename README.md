@@ -1,3 +1,5 @@
+📌 Explanation of Each Step
+
 Import libraries: We import Pandas for data handling, Seaborn and Matplotlib for visualization, and MinMaxScaler for normalization.
 
 Load dataset: The Titanic CSV file is loaded into a DataFrame.
